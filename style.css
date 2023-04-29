@@ -279,6 +279,19 @@ input[type="submit"]:hover {
 .cards-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+    }
+
+    .flip-card {
+        width: 80%;
+        margin: 10px auto;
+    }
 }
 
 .logo-style {
