@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 body {
   background-color: #333;
 }
 
 .logo {
-    color: aqua;
-    font-size: 20px;
+  color: aqua;
+  font-size: 20px;
 }
 .topnav {
   background-color: #333;
@@ -159,7 +160,7 @@ li {
 }
 
 .skills-p {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .html {
@@ -284,105 +285,105 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 768px) {
-    .cards-container {
-        flex-direction: column;
-    }
+  .cards-container {
+    flex-direction: column;
+  }
 
-    .flip-card {
-        width: 80%;
-        margin: 10px auto;
-    }
+  .flip-card {
+    width: 80%;
+    margin: 10px auto;
+  }
 }
 
 .logo-style {
-    font-family: "Sedgwick Ave Display", cursive;
-    color: aqua;
+  font-family: "Sedgwick Ave Display", cursive;
+  color: aqua;
 }
 
 .footer-container {
-    border-radius: 5px;
-    padding: 20px;
-    background-color: #111;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #111;
 }
 
 .footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: whitesmoke;
 }
 
 .footer-content h3 {
-    font-size: 2.1rem;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 3rem;
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
 }
 
 .footer-content p {
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 19px;
-    color: #cacdd2;
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 19px;
+  color: #cacdd2;
 }
 
 .socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
 }
 
 .socials li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .socials a {
-    text-decoration: none;
-    color: #fff;
-    border: 1.1px solid white;
-    padding: 5px;
-    border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
 }
 
 .socials a i {
-    font-size: 1.1rem;
-    width: 20px;
-    transition: color .4s ease-in;
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease-in;
 }
 
 .socials a:hover i {
-    color: aqua;
+  color: aqua;
 }
 
 .footer-bottom {
-    background: #000;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    justify-content: center;
-    border-radius: 20px;
+  background: #000;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
 }
 
 .footer-bottom p {
-    font-size: 20px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-    color: whitesmoke;
+  font-size: 20px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: whitesmoke;
 }
 
 .footer-bottom p a {
-    color: #44bae8;
-    font-size: 20px;
-    text-decoration: none;
+  color: #44bae8;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .footer-bottom span {
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
 }
