@@ -23,6 +23,6 @@ submitBtn.addEventListener('click', function(event) {
   if (!fnameValue || !lnameValue || !subjectValue) {
     alert('Please fill out all the fields.');
   } else {
-    alert('The contact form is currently under construction.');
+    form.submit();
   }
 });
