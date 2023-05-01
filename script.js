@@ -28,11 +28,15 @@ submitBtn.addEventListener('click', function(event) {
 });
 
 const popupMessage = document.getElementById('popup-message');
+const closeButton = document.getElementById('close-button');
 
 if (!getCookie('hasSeenMessage')) {
   popupMessage.style.display = 'block';
 
-  setCookie('hasSeenMessage', true, 7);
+  closeButton.addEventListener('click', () => {
+    popupMessage.style.display = 'none';
+    setCookie('hasSeenMessage', true, 7);
+  });
 }
 
 function getCookie(name) {
