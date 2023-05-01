@@ -96,6 +96,12 @@ body {
   height: 100%;
 }
 
+.about-container-2 {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #111;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -108,19 +114,26 @@ body {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.5);
   transition: 0.3s;
   padding: 20px;
   text-align: center;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.5);
 }
 
 .icon-container {
   font-size: 40px;
   margin-bottom: 15px;
+  padding: 5px;
+  color: #111;
+  background-color: lightcoral;
+  border-radius: 25px;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
@@ -176,6 +189,18 @@ li {
 .js {
   width: 1%;
   background-color: yellow;
+}
+
+.skills-container-2 {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #111;
+}
+
+.work-container-2{
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #111;
 }
 
 input[type="text"],
