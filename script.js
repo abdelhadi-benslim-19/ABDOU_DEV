@@ -33,15 +33,3 @@ submitButton.addEventListener('click', function(event) {
     form.submit();
   }
 });
-
-const popupContainer = document.querySelector('.popup-container');
-const popupMessage = document.querySelector('.popup-message');
-const closeBtn = document.querySelector('.close-btn');
-
-closeBtn.addEventListener('click', () => {
-  popupContainer.computedStyleMap.display = 'none';
-});
-
-window.addEventListener('load', () => {
-  popupContainer.style.display = 'flex';
-});
