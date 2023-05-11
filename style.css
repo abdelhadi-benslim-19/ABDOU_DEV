@@ -167,6 +167,7 @@ li {
 .skills-container {
   width: 100%;
   background-color: whitesmoke;
+  border-radius: 10px;
 }
 
 .skills {
@@ -174,6 +175,7 @@ li {
   padding-top: 10px;
   padding-bottom: 10px;
   color: black;
+  border-radius: 10px;
 }
 
 .skills-p {
@@ -181,17 +183,17 @@ li {
 }
 
 .html {
-  width: 15%;
+  width: 20%;
   background-color: lightcoral;
 }
 
 .css {
-  width: 5%;
+  width: 10%;
   background-color: purple;
 }
 
 .js {
-  width: 1%;
+  width: 5%;
   background-color: yellow;
 }
 
